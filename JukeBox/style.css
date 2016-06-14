@@ -1,0 +1,95 @@
+html {
+   min-height:100%;
+   width: 100%;
+   background-image:url("background.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:bottom;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+}
+
+header {
+   width:100%;
+   height:170px;
+   background-image: url("banner.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom;
+   position:relative;
+   border-bottom-color:black;
+   border-bottom-style:solid;
+   border-bottom-width: 2px
+}
+header h1 {
+   top:30%;
+   margin:0;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+   position:absolute;
+   font-size: 50px;
+   font-family:lucida;
+   color: white;
+   letter-spacing: 5px;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#content{
+   display:inline;
+}
+
+#plandup {
+   float:left;
+   display:inline-block;
+   width:40%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+ul {
+   float:left;
+}
+li {
+   list-style: none;
+   background-color:#FFFF66;
+   line-height:40px;
+   border-color:black;
+   border:3px;
+   border-style:double;
+}
+
+a {
+   text-decoration: none;
+   color:black;
+   font-family: Tahoma;
+   font-size:12px;
+   margin-left:2px;
+}
+
+.plisttitle {
+}
+
+#song {
+   float:left;
+   width:40%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+#songtitle {
+   font-family:trebuchet;
+}
+
+#fileup {
+   clear:left;
+}

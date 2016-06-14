@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+   <script src = "jscript.js"></script>
+   <title>JBox Demo</title>
+</head>
+<body>
+   <header> <h1>J-BOX</h1></header>
+   <div id = "content">
+      <div id = "plandup">
+         <ul id = "playlist">
+            <li><a href="#" class = "plisttitle" id = 1>Kygo - Firestone ft. Conrad Sewell </a></li>
+            <li><a href="#" class = "plisttitle" id = 2>Alina Baraz & Galimatias - Fantasy</a></li>
+            <li><a href="#" class = "plisttitle" id = 3>Diplo & Sleepy Tom - Be Right There</a></li>
+            <li><a href="#" class = "plisttitle" id = 4>Drake - Hold On, Were Going Home ft. Majid Jordan</a></li>
+         </ul>
+         <div id = "fileup">
+            <h4> Choose an mp3 file to put into the playlist.    Note: Put the mp3 file in C:/MP3/ </h4>
+            <form id = "upload" method = "post">
+            <input type="file" id="mp3" name="mp3" accept="mp3/*">
+            <input type="submit">
+            </form>
+         </div>
+      </div>
+      <div id = "song">    
+         <audio id ="audio">
+            <source src="Kygo - Firestone ft. Conrad Sewell.mp3" type="audio/mp3">
+         </audio>
+         <h2 id = "songtitle"> Kygo - Firestone ft. Conrad Sewell </h2>
+         <button class = "play">Play</button>
+         <button class = "pause">Pause</button>
+         <button class = "stop">Stop</button>
+         <button class = "next">Next</button>
+         <button class = "previous">Previous</button>
+         <button class = "random">Play Random</button>
+      </div>
+   </div>
+</body>
+</html>
